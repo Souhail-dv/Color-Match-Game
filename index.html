@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Match Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- // Ensures proper character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- // Makes the page responsive on all devices -->
+    <title>Color Match Game</title> <!-- // Sets the title of the page -->
+    <link rel="stylesheet" href="styles.css"> <!-- // Links external CSS file for styling -->
 </head>
 <body>
-    <div class="container">
-        <h1>Color Match Game</h1>
-        <div class="game-area">
-            <div class="color-display"></div>
-            <div class="color-name"></div>
-            <div class="buttons">
-                <button class="btn" id="true-btn">Match ✓</button>
-                <button class="btn" id="false-btn">No Match ✗</button>
+    <div class="container"> <!-- // Main container for the game -->
+        <h1>Color Match Game</h1> <!-- // Game title -->
+        <div class="game-area"> <!-- // Game area containing elements -->
+            <div class="color-display"></div> <!-- // Displays the color -->
+            <div class="color-name"></div> <!-- // Displays the color name -->
+            <div class="buttons"> <!-- // Buttons for user interaction -->
+                <button class="btn" id="true-btn">Match ✓</button> <!-- // Button to confirm a match -->
+                <button class="btn" id="false-btn">No Match ✗</button> <!-- // Button to reject a match -->
             </div>
-            <div class="score">Score: <span id="score">0</span></div>
-            <button class="btn restart-btn" id="restart-btn">Restart Game</button>
+            <div class="score">Score: <span id="score">0</span></div> <!-- // Displays the user's score -->
+            <button class="btn restart-btn" id="restart-btn">Restart Game</button> <!-- // Button to restart the game -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- // Links external JavaScript file for game logic -->
 </body>
 </html>
