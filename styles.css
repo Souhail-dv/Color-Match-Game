@@ -1,0 +1,17 @@
+/* Reset default margin, padding, and ensure all elements use border-box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering the game container in the viewport */
+body {
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Ensures full viewport height */
+    background: linear-gradient(45deg, #1a1a2e, #16213e, #1a1a2e); /* Dark gradient background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, readable font */
+    color: #fff; /* White text for contrast */
+}
