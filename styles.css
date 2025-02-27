@@ -33,3 +33,41 @@ body {
         radial-gradient(at 80% 0%, rgba(34, 197, 94, 0.1) 0px, transparent 50%),
         radial-gradient(at 0% 50%, rgba(239, 68, 68, 0.1) 0px, transparent 50%);
 }
+/* Main container for the game */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    padding: 3rem;
+    border-radius: 24px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 90%;
+    width: 500px;
+    margin: 2rem;
+}
+
+/* Styling for the game title */
+h1 {
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text; /* Makes text gradient */
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+/* Underline effect for the title */
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+}
