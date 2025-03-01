@@ -107,3 +107,13 @@ h1::after {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     pointer-events: none;
 }
+/* Styling for color name text */
+.color-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+}
