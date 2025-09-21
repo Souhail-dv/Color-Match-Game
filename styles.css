@@ -6,6 +6,7 @@
 :root {
     --primary-color: #6366f1; /* Main theme color */
     --secondary-color: #4f46e5; /* Secondary theme color */
+    --success-color: #22c55e; /* Green color for success messages */
 
 
 }
