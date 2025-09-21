@@ -5,6 +5,7 @@
 /* Defining CSS variables for theme colors */
 :root {
     --primary-color: #6366f1; /* Main theme color */
+    --secondary-color: #4f46e5; /* Secondary theme color */
 
 
 }
