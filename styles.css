@@ -12,4 +12,9 @@
     --text-color: #1e293b; /* Dark text color */
 }
 
+/* Reset default styles and apply global styles */
+
+* {
+    margin: 0;
+
 
