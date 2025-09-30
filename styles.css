@@ -19,5 +19,11 @@
     padding: 0;
     box-sizing: border-box; /* Ensures width and height include padding/border */
     font-family: 'Poppins', sans-serif; /* Apply 'Poppins' font globally */
+}
+
+/* Styling the body for full-page centering */
+body {
+
+}
 
 
