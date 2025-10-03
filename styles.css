@@ -24,6 +24,7 @@
 /* Styling the body for full-page centering */
 body {
     min-height: 100vh; /* Full height of viewport */
+    display: flex;
 }
 
 
