@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    background: var(--background-color); /* Light background color */
 }
 
 
