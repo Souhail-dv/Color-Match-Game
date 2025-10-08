@@ -28,6 +28,10 @@ body {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     background: var(--background-color); /* Light background color */
+
+    /* Adding a subtle radial gradient effect */
+    background-image: 
+        radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.1) 0px, transparent 50%),
 }
 
 
