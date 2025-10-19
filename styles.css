@@ -43,6 +43,7 @@ body {
     padding: 3rem;
     border-radius: 24px; /* Rounded corners */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
 
     
 }
