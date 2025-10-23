@@ -46,6 +46,7 @@ body {
     backdrop-filter: blur(10px); /* Glassmorphism effect */
     border: 1px solid rgba(255, 255, 255, 0.2);
     max-width: 90%;
+    width: 500px;
 
     
 }
