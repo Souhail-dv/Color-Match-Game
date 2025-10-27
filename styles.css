@@ -53,6 +53,7 @@ body {
 
 /* Styling for the game title */
 h1 {
+    color: var(--text-color);
     
 }
 
