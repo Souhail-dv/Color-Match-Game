@@ -67,6 +67,7 @@ h1 {
 /* Underline effect for the title */
 h1::after {
     content: '';
+    position: absolute;
 
     
 }
