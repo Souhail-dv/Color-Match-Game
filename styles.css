@@ -68,6 +68,7 @@ h1 {
 h1::after {
     content: '';
     position: absolute;
+    bottom: -10px;
 
     
 }
