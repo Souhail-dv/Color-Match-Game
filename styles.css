@@ -69,6 +69,7 @@ h1::after {
     content: '';
     position: absolute;
     bottom: -10px;
+    left: 50%;
 
     
 }
