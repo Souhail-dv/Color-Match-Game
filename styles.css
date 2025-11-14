@@ -72,6 +72,7 @@ h1::after {
     left: 50%;
     transform: translateX(-50%);
     width: 50px;
+    height: 4px;
 
     
 }
