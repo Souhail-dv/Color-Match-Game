@@ -75,7 +75,11 @@ h1::after {
     height: 4px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border-radius: 2px;
+    
+}
 
+/* Styling the game area */
+.game-area {
     
 }
 
