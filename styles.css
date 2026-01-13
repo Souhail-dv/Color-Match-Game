@@ -81,6 +81,7 @@ h1::after {
 /* Styling the game area */
 .game-area {
     display: flex;
+    flex-direction: column;
     
 }
 
