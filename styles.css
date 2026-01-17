@@ -82,7 +82,7 @@ h1::after {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
+    align-items: center;
 }
 
 
