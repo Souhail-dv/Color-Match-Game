@@ -88,6 +88,7 @@ h1::after {
 /* The box displaying the color */
 .color-display {
     width: 250px;
+    height: 250px;
 }
 
 
