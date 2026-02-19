@@ -89,6 +89,7 @@ h1::after {
 .color-display {
     width: 250px;
     height: 250px;
+    border-radius: 20px;
 }
 
 
